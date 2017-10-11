@@ -16,21 +16,6 @@ function TIC()
     video.pushMatrix()
     video.mulMatrix(model)
 
-    -- video.draw3DLine(vec3.new(-0.5, -0.5, -0.5), vec3.new(0.5, -0.5, -0.5), 8)
-    -- video.draw3DLine(vec3.new(0.5, -0.5, -0.5), vec3.new(0.5, 0.5, -0.5), 8)
-    -- video.draw3DLine(vec3.new(0.5, 0.5, -0.5), vec3.new(-0.5, 0.5, -0.5), 8)
-    -- video.draw3DLine(vec3.new(-0.5, 0.5, -0.5), vec3.new(-0.5, -0.5, -0.5), 8)
-
-    -- video.draw3DLine(vec3.new(-0.5, -0.5, 0.5), vec3.new(0.5, -0.5, 0.5), 8)
-    -- video.draw3DLine(vec3.new(0.5, -0.5, 0.5), vec3.new(0.5, 0.5, 0.5), 8)
-    -- video.draw3DLine(vec3.new(0.5, 0.5, 0.5), vec3.new(-0.5, 0.5, 0.5), 8)
-    -- video.draw3DLine(vec3.new(-0.5, 0.5, 0.5), vec3.new(-0.5, -0.5, 0.5), 8)
-
-    -- video.draw3DLine(vec3.new(-0.5, -0.5, 0.5), vec3.new(-0.5, -0.5, -0.5), 8)
-    -- video.draw3DLine(vec3.new(0.5, -0.5, 0.5),vec3.new(0.5, -0.5, -0.5), 8)
-    -- video.draw3DLine(vec3.new(0.5, 0.5, 0.5), vec3.new(0.5, 0.5, -0.5), 8)
-    -- video.draw3DLine(vec3.new(-0.5, 0.5, 0.5), vec3.new(-0.5, 0.5, -0.5), 8)
-
     video.draw3DTriangle(vec3.new(-0.5, -0.5, 0.5), vec3.new(0.5, -0.5, 0.5), vec3.new(0.5, 0.5, 0.5), 1)
     video.draw3DTriangle(vec3.new(-0.5, -0.5, 0.5), vec3.new(-0.5, 0.5, 0.5), vec3.new(0.5, 0.5, 0.5), 2)
 
