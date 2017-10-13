@@ -3,6 +3,7 @@ files = [
     "math/vector3.lua",
     "math/matrix.lua",
     "video/video.lua",
+    "video/model.lua",
     "main.lua",
 ]
 with open("out.lua", "w") as outfile:
